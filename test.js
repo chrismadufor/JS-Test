@@ -31,7 +31,7 @@ function kangaroo(x1, x2, v1, v2) {
         currPos2 = x2 + v2
         while(x < 1000) {   //using 1000 because my PC will hang 
             if (currPos1 === currPos2) {
-                console.log("YES", x)
+                console.log("YES")
                 possible = true
                 break
             }
